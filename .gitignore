@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Env folders
+bot_env/*
+
+# Creads files
+creds.json

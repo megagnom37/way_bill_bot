@@ -1,0 +1,6 @@
+aiogram==2.19
+loguru==0.6.0
+google-api-python-client==2.44.0
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.5.1
+oauth2client==4.1.3
