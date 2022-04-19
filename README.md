@@ -24,11 +24,13 @@ It should look like:
 }
 ```
 
+Also create Bot in Telegram through **@BotFather**.
+
 Then go to **/way_bill/config/bot.ini** and fill your settings fields:
 
-- token
-- users
-- spreadsheet
+- **token** - Telegram bot token
+- **users** - Available user IDs for bot (Example: 1234567;2345678)
+- **spreadsheet** - ID of Google Spreadsheet
 
 Build Docker image:
 ```sh
