@@ -42,7 +42,9 @@ docker run -d --restart unless-stopped way_bill
 
 ## Examples
 Bot interface:
-![bot_interface](images/bot_interface.jpg)
+
+<img src="images/bot_interface.jpg" alt="drawing" width="250"/>
 
 Table example:
-![table_example](images/table_example.png)
+
+<img src="images/table_example.png" alt="drawing" width="700"/>
