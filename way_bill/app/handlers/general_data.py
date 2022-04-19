@@ -62,7 +62,7 @@ async def add_date(message: types.Message, state: FSMContext):
 async def main_menu(message: types.Message, state: FSMContext):
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
     keyboard.add('🚗Пробег', '🕒Простой', '⛽️Заправка')
-    keyboard.add('💾Сохранить', '❌Отмена')
+    keyboard.add('💾 Сохранить', '❌ Отмена')
 
     await AppState.waiting_type_of_data.set()
 
@@ -153,7 +153,7 @@ def register_handlers_general_data(dp: Dispatcher):
     )
     dp.register_message_handler(
         save,
-        text='💾Сохранить',
+        text='💾 Сохранить',
         state=AppState.waiting_type_of_data
     )
     dp.register_message_handler(
